@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: sciscout
+Version: 0.1.0
+Summary: SciScout — Bilimsel ve mühendislik araştırma agentı (3-ajan döngüsü)
+Author: SciScout Contributors
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.115
+Requires-Dist: uvicorn[standard]>=0.30
+Requires-Dist: httpx>=0.27
+Requires-Dist: typer>=0.13
+Requires-Dist: rich>=13.7
+Requires-Dist: pydantic>=2.7
+Requires-Dist: pydantic-settings>=2.3
+Requires-Dist: python-dotenv>=1.0
+Requires-Dist: google-generativeai>=0.8
+Requires-Dist: groq>=0.11
+Requires-Dist: openai>=1.40
+Requires-Dist: langgraph>=0.2
+Requires-Dist: langchain-core>=0.3
+Requires-Dist: langchain-google-genai>=2.0
+Requires-Dist: langchain-groq>=0.1
+Requires-Dist: arxiv>=2.1
+Requires-Dist: pymupdf>=1.24
+Requires-Dist: beautifulsoup4>=4.12
+Requires-Dist: lxml>=5.0
+Requires-Dist: tenacity>=8.4
+Requires-Dist: tiktoken>=0.7
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23; extra == "dev"
+Requires-Dist: ruff>=0.5; extra == "dev"
+Requires-Dist: respx>=0.21; extra == "dev"
